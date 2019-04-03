@@ -8,7 +8,7 @@ Two other tem members
 It is highly recommended to always use SSL certificate verification. 
 By default, urllib3 does not verify HTTPS requests.
 In order to enable verification you will need a set of root certificates. 
-The easiest and most reliable method is to use the certifi package which provides Mozilla’s root certificate bundle:
+The easiest and most reliable method (or so the internet tells me... I am no security expert!) is to use the certifi package which provides Mozilla’s root certificate bundle:
 
 pip install certifi
 
